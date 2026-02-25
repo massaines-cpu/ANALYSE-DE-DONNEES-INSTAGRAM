@@ -52,3 +52,13 @@ plt.scatter(X, y)
 plt.plot(ordonnee, regressor.coef_[0]*ordonnee+regressor.intercept_, color='red')
 plt.xlabel('TEMPS INSTA')
 plt.ylabel('AGE')
+
+amour = {
+    'Single': 0,
+    'Married': 1,
+    'In a relationship': 2,
+    'Widowed': 3,
+    'Divorced': 4
+}
+
+insta_data['relation_amour'] = insta_data['relationship_status'].map(amour)
