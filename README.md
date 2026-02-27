@@ -1,0 +1,1 @@
+Le but de cet exercice était que l'un de nos collègues présente notre notebook, il devait être compréhensible, lisible... je l'ai rendu un peu plus fun pour que ce soit agréable, mais les recherches sont bien présentes.
